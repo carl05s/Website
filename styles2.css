@@ -1,0 +1,56 @@
+/* titles stuff */
+
+.titles {
+    text-align: center;
+    font-size: 200%;
+    font-family: "super mario 256";
+  }
+
+.titles a {
+    color: #653239;
+    text-decoration: none;
+}
+
+.titles a:hover{
+    transition: 1s;
+    background-color: #d46b79;
+    font-size: 102%;
+}
+
+
+
+.center {
+    text-align: center;
+    padding-top: 1%;
+    padding-right: 30px;
+    padding-bottom: 15px;
+    padding-left: 80px
+}
+
+body {
+    background-color: #AF7A6D;
+}
+
+/* make it so that it does this animation when the page is */
+
+.bodytext {
+    font-family: Minecraft;
+    font-size: 100%;
+    opacity: 100%;
+}
+/* .bodytext:hover{ */
+    /* transition: 1s; */
+    /* font-size: 100%; */
+    /* opacity: 100%; */
+/* } */
+
+.fish {
+    text-align: center;
+    opacity: 0%;
+}
+
+
+.fish:hover{
+    transition: 10s;
+    opacity: 100%;
+}
