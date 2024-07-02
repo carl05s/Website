@@ -7,13 +7,13 @@
   }
 
 .titles a {
-    color: #653239;
+    color: #AEC5EB;
     text-decoration: none;
 }
 
 .titles a:hover{
     transition: 1s;
-    background-color: #d46b79;
+    background-color: #252e3d;
     font-size: 102%;
 }
 
@@ -28,7 +28,7 @@
 }
 
 body {
-    background-color: #AF7A6D;
+    background-color: #3A405A;
 }
 
 /* make it so that it does this animation when the page is */
@@ -37,6 +37,7 @@ body {
     font-family: Minecraft;
     font-size: 100%;
     opacity: 100%;
+    color: #E9AFA3
 }
 /* .bodytext:hover{ */
     /* transition: 1s; */
