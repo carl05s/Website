@@ -1,5 +1,8 @@
 /* titles stuff */
 
+@font-face { font-family: "Minecraft"; src: url('minecraft.ttf'); } 
+@font-face { font-family: "super mario 256"; src: url('SuperMario256.ttf'); } 
+
 .titles {
     text-align: center;
     font-size: 200%;
