@@ -17,7 +17,7 @@
 .titles a:hover{
     transition: 1s;
     background-color: #252e3d;
-    font-size: 102%;
+    font-size: 101%;
 }
 
 
@@ -57,4 +57,71 @@ body {
 .fish:hover{
     transition: 10s;
     opacity: 100%;
+}
+
+.mega-centered-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -80%);
+    text-align: center;
+  }
+
+.timeText {
+    color: #F9DEC9;
+    font-size: 150%;
+    font-family: 'minecraft';
+}
+
+.project-image {
+    display: flex;
+    width: 30%;
+    margin: auto;
+    padding: 10px;
+    opacity: 50%;
+}
+
+.project-image:hover{
+    padding: 5px;
+    transition: 1s;
+    opacity: 100%;
+}
+
+
+
+section {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+
+.discord{
+    font-family: Minecraft;
+    font-size: 100%;
+    opacity: 100%;
+    color: #E9AFA3
+}
+
+.posts_list{
+    padding-top: 1%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.post{
+    background-color:#1b1e2a;
+    width: 80%;
+    font-family: Minecraft;
+    font-size: 100%;
+    opacity: 100%;
+    color: #E9AFA3;
+    padding: 1%;
+}  
+
+.post:hover{
+    transition: 1s;
+    background-color:#000000;
+    
 }
