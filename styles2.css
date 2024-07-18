@@ -12,12 +12,13 @@
 .titles a {
     color: #AEC5EB;
     text-decoration: none;
+    transition: 1s;
 }
 
 .titles a:hover{
     transition: 1s;
     background-color: #252e3d;
-    font-size: 101%;
+    font-size: 103%;
 }
 
 
@@ -63,7 +64,7 @@ body {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -80%);
+    transform: translate(-50%, -60%);
     text-align: center;
   }
 
@@ -79,6 +80,7 @@ body {
     margin: auto;
     padding: 10px;
     opacity: 50%;
+    transition: 1s
 }
 
 .project-image:hover{
@@ -112,6 +114,7 @@ section {
 }
 
 .post{
+    transition: 1s;
     background-color:#1b1e2a;
     width: 80%;
     font-family: Minecraft;
@@ -120,11 +123,16 @@ section {
     color: #E9AFA3;
     padding: 1%;
     border-radius: 20px;
-    margin: 0.2%
+    margin: 0.2%;
 }  
 
 .post:hover{
     transition: 1s;
     background-color:#000000;
-    
+    width: 90%;
+}
+
+.nodeco{
+    text-decoration: none;
+    color: #E9AFA3;
 }
